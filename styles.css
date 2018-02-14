@@ -18,11 +18,34 @@ html, body {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
     font-size: 16px;
 }
+.container{
+  margin:35px;
+  text-align: center;
+
+}
+.place-btns{
+  text-align:left;
+  padding: 20px;
+}
+
+.authors{
+  color: green;
+  font-family: 'Kavivanar', cursive;
+  font-size: 115%;
+}
+
+
+}
+p{
+  color: blue;
+}
 /* Add in the external .css stylesheet*/
 .demo {
   margin-top: 10px;
     margin-left: 20px;
 }
+
+
 
 /* original styles */
 p, .no-highlight {
@@ -39,10 +62,17 @@ p, .no-highlight {
 /* original styles */
 .authors {
   margin-left: 100px;
+  text-align: center;
+  font-size: 150%;
 }
 
 .quote {
   padding: 20px;
+  text-align: left;
+  font-family: 'Anton', sans-serif;
+  font-size: 121.5%;
+  line-height: 160%;
+
 }
 
 /* pseudo stlyes */
@@ -53,11 +83,18 @@ p, .no-highlight {
 }
 .active {
   text-transform: uppercase;
-  font
 }
+
+.change {
+  text-transform;
+}
+
 
 button {
     margin-top: 10px;
+    color:green;
+
+
 }
 
 /* style to fade disable button */
@@ -78,8 +115,9 @@ button:disabled {
 }
 
 .highlight {
-  background-color: yellow;
-  width:
+  background-color:yellow;
+
+
 
 }
 

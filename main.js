@@ -17,7 +17,7 @@ $(document).ready(function(){
 });
       $('#style-hed').on("click", function(e) {
             e.preventDefault(); //disable the button's default behavior
-            $("h3").addClass("active");
+            $("h3").addClass("active",);
             $('#style-hed').prop('disabled',
           true);
 });
