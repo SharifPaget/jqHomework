@@ -42,7 +42,7 @@ p{
 /* Add in the external .css stylesheet*/
 .demo {
   margin-top: 10px;
-    margin-left: 20px;
+
 }
 
 
@@ -50,8 +50,8 @@ p{
 /* original styles */
 p, .no-highlight {
   display: inline;
-  padding-top: 10px;
-  padding-bottom: 20px;
+  padding-top: 5px;
+  padding-bottom: 10px;
 }
 
 .no-highlight {
@@ -106,7 +106,7 @@ button:disabled {
 /* new styles */
 .somePadding {
   padding: 20px;
-  margin-left: 250px;
+  margin-left: 100px;
 }
 
 .someStyling{
@@ -125,6 +125,10 @@ img{
   opacity: .25;
 }
 
+#gandiImg, #mayaImg {
+  opacity: 1;
+}
+
 .addBorder {
   border-style: solid;
     border-color: red;
@@ -132,9 +136,9 @@ img{
 
 .newDiv {
   margin: 5px;
-  padding: 30px;
-  width: 600px;
-  height: 400px;
+  padding: 10px;
+  width: 275px;
+  height: 810px;
   background-color: gray;
 }
 
