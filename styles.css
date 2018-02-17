@@ -131,7 +131,7 @@ img{
 
 .addBorder {
   border-style: solid;
-    border-color: red;
+    border-color: black;
 }
 
 .newDiv {
@@ -139,7 +139,7 @@ img{
   padding: 10px;
   width: 275px;
   height: 810px;
-  background-color: gray;
+  background-color: pink;
 }
 
 
