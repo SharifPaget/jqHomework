@@ -156,5 +156,18 @@ img{
 
 @media(min-width: 729px) {
     /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
-
+    .newDiv {
+      margin: 5px;
+      padding: 30px;
+      width: 800px;
+      height: 600px;
+      background-color: pink;
+}
+    .demo {
+      margin-top: 0px;
+      margin-left: 0px;
+}
+    #gandiImg, #mayaImg{
+      opacity: 1;
+    }
 }
